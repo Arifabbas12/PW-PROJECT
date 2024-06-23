@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.resume-container{
+    display: flex;
+    flex-direction: row;
+    width: 1180px;
+    min-height: 103rem;
+    margin: 1rem auto;
+    border: 1px solid black;
+}
+
+.resume-content{
+    display: flex;
+    flex-direction: row;
+    max-width: 1120px;
+    min-height: 110rem;
+    margin: 1.3rem 1rem;
+    gap: 3.5rem;
+    margin-bottom: -11.2rem;
+}
+
+.section-left{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    height: 100%;
+}
+
+.intro-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    padding: 3rem;
+    max-height: 25%;
+    color: white;
+    text-align: center;
+
+}
+
+.name{
+    text-transform: uppercase;
+}
+
+.avatar{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-top: -2rem;
+}
+
+.job-desc{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+.social-box{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-top: .8rem;
+    font-size: .9rem;
+    margin-bottom: -1rem;
+}
+
+.github-sec, .linkdin-sec{
+    display: flex;
+    flex-direction: row;
+}
+
+.github-sec p, .linkdin-sec p{
+    margin-top: auto;
+}
+
+.socials{
+    height: 1.3rem;
+    width: 1.8rem;
+    display: flex;
+}
+
+.details-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    background-color: #4d4b4b;
+    color: white;
+    min-height: 70%;
+    font-size: 1.1rem;
+}
+
+.details-margin{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: -3rem;
+}
+
+.contact-dets, .skills-dets, .certifications{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+
+.dets-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 1.2rem;
+    gap: 1rem;
+}
+
+.contact{
+    color: rgb(139, 138, 138);
+}
+
+.dets-head{
+    display: flex;
+    gap: .5rem;
+}
+
+.level-bar{
+    width: 12rem;
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 1.225rem;
+}
+
+.level{
+    display: block;
+    height: .5rem;
+    background-color: cornflowerblue;
+    border-radius: 1.225rem;
+}
+
+.html{
+    width: 95%;
+}
+
+.css{
+    width: 90%;
+}
+
+.js{
+    width: 85%;
+}
+
+.Linux{
+    width: 78%;
+}
+
+.Java{
+    width: 85%;
+}
+
+.DSA{
+    width: 70%;
+}
+
+.Oops{
+    width: 85%;
+}
+
+.section-right{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+.certification-padding{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: -5rem;
+}
+
+.headings{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.title-text{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: cornflowerblue;
+    padding-bottom: .6rem;
+    border-bottom: 3px solid #000;
+    text-transform: uppercase;
+}
+
+.right-dets{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.arrow-svg{
+    margin: .5rem auto;
+}
+
+.title-dets p{
+    max-width: 80%;
+    color: rgb(139, 138, 138);
+}
+
+.years-exp{
+    font-size: 1rem;
+    font-weight: 600;
+    color: cornflowerblue;
+    margin-right: 1.5rem;
+}
+
+h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
