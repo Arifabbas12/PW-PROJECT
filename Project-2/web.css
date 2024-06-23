@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url("Assets/background-image.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position-y: 109%;
+    overflow: hidden;
+}
+
+.bg {
+  height: 620px;
+  width: 1500px;
+  display: flex;
+  gap: 25px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.web-page {
+  margin-top: 2px;
+  border: 4px solid orange;
+}
+
+.left-size h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.left-side {
+  margin-top: 90px;
+  margin-left: 90px;
+}
+.left-side p {
+  margin-top: 19px;
+  font-size: 23px;
+  color: gray;
+}
+.right-side-img img {
+  height: 630px;
+  width: 850px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  gap: 12px;
+}
+
+.nav-mid {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-mid a {
+  color: black;
+  font-weight: 400;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.btn-loan {
+  padding: 20px;
+}
+
+.btn-app button {
+  background-color: rgba(255, 8, 181, 0.914);
+  border-radius: 5px;
+  border: 1px solid rgba(255,8,181,0.914);
+  width: 120px;
+  color: white;
+}
+
+.nav-right-btn {
+  padding: 6px;
+  width: 90px;
+  background-color: rgba(255, 8, 181, 0.914);
+  border-radius: 5px;
+  border: 1px solid rgba(255,8,181,0.914);
+  margin-left: 10px;
+  color: white;
+}
+
+.btn-loan button {
+  margin-top: 16px;
+  padding: 8px;
+  width: 190px;
+  border-radius: 7px;
+  color: deeppink;
+  border: 1px solid deeppink;
+}
+
+button {
+  padding: 6px;
+}
+
+.icon {
+  margin-top: 54px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.right-side .Home{
+    position: absolute;
+    font-size: 1em;
+    height: 8%;
+    width: 10%;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.58);
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    top: 29%;
+    right: 10%;
+}
+
+.right-side .car{
+    position: absolute;
+    height: 8%;
+    width: 10%;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.58);
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    left: 47%;
+    top: 20%;
+}
