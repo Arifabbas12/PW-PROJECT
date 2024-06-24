@@ -1,0 +1,33 @@
+.container{
+    background-color: rgb(215, 164, 35);
+    height: 22em;
+    width: 22em;
+    border-radius: 20px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.container:hover{
+   opacity: 0.7;
+   transition: all;
+   transition-duration:2s;
+}
+
+.inner img{
+    height: 250px;
+    width: 330px;
+    margin-top: 10px;
+    border-radius: 40px;
+}
+
+.course{
+    font-weight: 900;
+}
+
+.full-stack{
+    font-weight: 100;
+}
+
